@@ -138,7 +138,7 @@ ADD start.sh /start.sh
 RUN chmod +x /start.sh
 
 #Set port
-EXPOSE 80 443
+EXPOSE 80 443 22 21 3306
 
 #ENTRYPOINT ["/start.sh"]
 
